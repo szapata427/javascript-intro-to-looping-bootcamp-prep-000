@@ -26,7 +26,9 @@ function incrementVariable() {
 }
 
 do {
-  console.log('doo-bee-doo-bee-doo')
+  array.pop()
   incrementVariable();
-} while (array.length > 0 && incrementVariable());
+} 
+
+while (array.length > 0 && incrementVariable());
 
