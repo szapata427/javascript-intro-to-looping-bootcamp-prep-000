@@ -30,7 +30,7 @@ do {
   incrementVariable();
 } 
 
-while (array.length > 0 && incrementVariable());
+while (array.length > 0 );
 
 return array
 }
