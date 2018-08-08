@@ -1,7 +1,7 @@
 function forLoop(array) {
 
 for ( let i= 0; i < 25; i++) {
-  if ( i < 0) {
+  if ( i < 2) {
   array.push( "I am 1 strange loop.")
   }
   else {
